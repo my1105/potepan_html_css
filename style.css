@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    font-weight:500;
+    font-size:14px;
+    text-size-adjust:100%;
+    color: #333;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+.Header{
+width: 100%;
+height: 70px;
+background-color: white;
+display: grid;
+}
+
+.HeaderContainer{
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.HeaderLogo__image{
+    width: auto;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.HeaderLogo{
+    text-align: center;
+}
+
+.HeaderNavList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0%;
+}
+
+
+
+.HeaderNavListItem{
+    margin-right: 45px;
+}
+
+.HeaderNavListItem__link>span:first-child{
+    font-size: 12px;
+    line-height: 14.4px;
+    font-family: "Lato", sans-serif;
+}
+
+.HeaderNavListItem__link>span{
+    display: block;
+    font-weight: 700;
+    text-align: center;  
+}
+
+.HeaderNavListItem__link>span:last-child{
+    font-size: 10px;
+}
+
+
+.HeaderNavListItem__button {
+        align-items: center;
+        background-color: #F79214;
+        border: none;
+        border-radius: 38px;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 700;
+        height: 64px;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        height: 40px;
+        padding: 0 20px;
+
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+main{
+    display: block;
+}
+
+.FirstView {
+    position: relative;
+    height: 739px;
+}
+
+img.lazy {
+    min-height: 1px;
+}
+.FirstView__bg-image--left-rectangle {
+    top: -70px;
+    left: 0;
+}
+.FirstView__bg-image {
+    position: absolute;
+    z-index: -1;
+}
